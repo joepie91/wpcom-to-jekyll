@@ -7,7 +7,7 @@ Features:
 * Processes WordPress HTML (including output from the older WordPress editors), including [caption] tags.
 * Outputs all posts and pages as Markdown (*not HTML in a .md file!). Some post-processing is done to get a reasonable result.
 * Downloads attachments and makes sure that all internal URLs (both for image attachments and links to other posts on the same blog) point to their new location on your Jekyll blog.
-* "Shifts" headers, to make sure that post headers start at <h3>, so as to not mess up your Jekyll stylesheet.
+* "Shifts" headers, to make sure that post headers start at &lt;h3&gt;, so as to not mess up your Jekyll stylesheet.
 
 The following are exported:
 
