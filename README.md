@@ -18,6 +18,10 @@ The following are exported:
 
 This might also work with regular WordPress blogs, no idea. I've only tested it for WordPress.com.
 
+## Dependencies
+
+* lxml
+
 ## Usage
 
 	python convert.py SOURCE [DESTINATION]
