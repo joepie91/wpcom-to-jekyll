@@ -22,8 +22,8 @@ This might also work with regular WordPress blogs, no idea. I've only tested it 
 
 	python convert.py SOURCE [DESTINATION]
 
-`SOURCE`: The source XML file to read your data from.
-`DESTINATION`: *Optional.* Where to put the resulting files. Point this at your Jekyll project directory root, and it'll put everything in the right place.
+* `SOURCE`: The source XML file to read your data from.
+* `DESTINATION`: *Optional.* Where to put the resulting files. Point this at your Jekyll project directory root, and it'll put everything in the right place.
 
 ## Result
 
