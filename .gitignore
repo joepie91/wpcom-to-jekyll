@@ -1,0 +1,5 @@
+*.pyc
+*/*.md
+_drafts
+_posts
+attachments
