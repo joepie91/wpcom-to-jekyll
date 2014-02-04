@@ -70,7 +70,11 @@ print "Parsing XML..."
 
 for item in xml.xpath("/rss/channel/item"):
 	post_type = item.xpath("wp:post_type/text()", namespaces=xmlns)[0]
-	post_title = item.xpath("title/text()", namespaces=xmlns)[0]
+	
+	try:
+		post_title = item.xpath("title/text()", namespaces=xmlns)[0]
+	except IndexError, e:
+		post_title = "Untitled"
 	
 	try:
 		post_slug = item.xpath("wp:post_name/text()", namespaces=xmlns)[0]
